@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawDigit1", "DrawDigit1\Dr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MnistModel", "MnistModel\MnistModel.csproj", "{ABC13F6A-10BF-4D9B-B331-3D71C6816CD1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DigitalRecogition", "DigitalRecogition", "{2051BFF0-AFF6-4506-8B60-F6094DEDCC1B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Videos\Captures\训练结果.PNG = ..\..\..\Videos\Captures\训练结果.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +37,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D6A7CA4-3340-4690-8F9D-20BCB24E86A1} = {2051BFF0-AFF6-4506-8B60-F6094DEDCC1B}
+		{ABC13F6A-10BF-4D9B-B331-3D71C6816CD1} = {2051BFF0-AFF6-4506-8B60-F6094DEDCC1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2608D77C-634D-4542-AAB7-F6B8AC4A3FD5}
